@@ -1,6 +1,7 @@
 package main
 
 import (
+	"github.com/koketama/koketama/mod"
 	"github.com/koketama/koketama/pkg"
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"
@@ -19,6 +20,7 @@ func main() {
 
 	root.AddCommand(
 		pkg.MustPKGCmd(logger),
+		mod.MustModCmd(logger),
 	)
 
 	if err := root.Execute(); err != nil {
