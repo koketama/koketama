@@ -4,12 +4,13 @@
 
 
 #### How to use
-
 > **go get github.com/koketama/koketama**
 
 
 
 #### Supports
+###### ***Notice: This is a CLI program***
+
 >koketama
 >
 >>mod
